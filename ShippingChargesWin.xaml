@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ﻿<Window x:Class="Desktop.ShippingChargesWin"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
@@ -18,3 +19,25 @@
         <Button Content="Back" HorizontalAlignment="Left" Margin="633,364,0,0" VerticalAlignment="Top" Height="40" Width="110" FontSize="18" FontWeight="Bold" Click="Button_Click"/>
     </Grid>
 </Window>
+=======
+﻿<Window x:Class="Desktop.ShippingChargesWin"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Desktop"
+        mc:Ignorable="d"
+        Title="ShippingChargesWin" Height="450" Width="800">
+    <Grid>
+        <Label Content="Please input the weight of package" HorizontalAlignment="Left" Height="36" Margin="101,110,0,0" VerticalAlignment="Top" Width="300" FlowDirection="RightToLeft" FontSize="16"/>
+        <Label Content="Please input the shipping miles" HorizontalAlignment="Left" Height="36" Margin="101,181,0,0" VerticalAlignment="Top" Width="300" FlowDirection="RightToLeft" FontSize="16"/>
+        <Label Content="Your shipping charge is" HorizontalAlignment="Left" Height="36" Margin="101,279,0,0" VerticalAlignment="Top" Width="300" FlowDirection="RightToLeft" FontSize="16"/>
+        <TextBox x:Name="weightTextBox" HorizontalAlignment="Left" Height="36" Margin="409,110,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="159" FontSize="16"/>
+        <TextBox x:Name="milesTextBox" HorizontalAlignment="Left" Height="36" Margin="409,181,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="159" FontSize="16"/>
+        <Label x:Name="chargeLabel" Content="" HorizontalAlignment="Left" Height="36" Margin="409,279,0,0" VerticalAlignment="Top" Width="159" FontSize="16"/>
+        <Label Content="$" HorizontalAlignment="Left" Height="36" Margin="396,279,0,0" VerticalAlignment="Top" Width="34" FontSize="16"/>
+        <Button x:Name="calculateButton" Content="Calculate" HorizontalAlignment="Left" Height="36" Margin="615,181,0,0" VerticalAlignment="Top" Width="132" FontWeight="Bold" FontSize="16" Click="calculateButton_Click"/>
+        <Button Content="Back" HorizontalAlignment="Left" Margin="633,364,0,0" VerticalAlignment="Top" Height="40" Width="110" FontSize="18" FontWeight="Bold" Click="Button_Click"/>
+    </Grid>
+</Window>
+>>>>>>> aeef6d10cd2828941777353c4f3f8550f8620ea5
